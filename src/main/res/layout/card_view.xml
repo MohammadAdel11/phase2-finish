@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    android:elevation="6dp"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/cardView">
+
+
+    <LinearLayout
+        android:background="@drawable/dn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

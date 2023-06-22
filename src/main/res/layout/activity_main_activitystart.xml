@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oo"
+    tools:context=".MainActivitystart">
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="355dp"
+        android:layout_height="46dp"
+        android:hint="Name"
+        android:textColorHint=" #664400"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="167dp"
+        android:layout_height="59dp"
+        android:background="@drawable/button_start"
+        android:onClick="onClickStart"
+        android:text="Start"
+        android:textColor="#17D53E3E"
+        android:textColorLink="#501414"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sbora"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textQNum"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Q : 1 / 10"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/textRightAns"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="RA : 1 / 10"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textQ"
+        android:layout_width="match_parent"
+        android:layout_height="444dp"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:gravity="top|center"
+        android:text="5 + 9 = ?"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonOp1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="13"
+        android:background="@drawable/button_op"
+        android:textColor="@android:color/white"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonOp2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="13"
+        android:background="@drawable/button_op"
+        android:textColor="@android:color/white"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonOp3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="13"
+        android:background="@drawable/button_op"
+        android:textColor="@android:color/white"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+</LinearLayout>

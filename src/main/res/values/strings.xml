@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz Math</string>
+    <string name="name">tabian.com.sharedpreferences.name</string>
+    <string name="grade">tabian.com.sharedpreferences.grade</string>
+    <string name="qustion">tabian.com.sharedpreferences.qustion</string>
+
+
+
+</resources>
